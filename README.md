@@ -3,19 +3,19 @@ Single-cell analysis of PBMC immune cells and structural validation of drug targ
 # Single-Cell Genomic Analysis & Drug Target Identification
 
 ## Project Overview
-This project simulates a computational biology workflow. It processes single-cell RNA sequencing (scRNA-seq) data to identify immune cell populations and analyses potential drug targets using structural biology tools.
+This project uses a computational biology workflow. It involves the analysis of single-cell RNA sequencing (scRNA-seq) data to identify groups of immune cells and uses tools to create 3D structure of the protein and calculate the centre of mass.
 
 ## Key Workflows
 1.  **Genomic Pipeline:**
     * Processed 2,700 human PBMC cells using **Scanpy**.
-    * Performed QC, Normalization, and Dimensionality Reduction (PCA).
+    * Performed QC, Normalisation, and Dimensionality Reduction (PCA).
     * Clustered cells using the **Leiden algorithm**.
 2.  **Biological Insight:**
     * Identified **CD4+ T-Cells** via marker genes (*LTB, IL32*).
     * Performed Differential Expression analysis to validate *IL32* as a specific target.
 3.  **Structural Analysis:**
-    * Retrieved the 3D crystal structure of IL-32 (PDB: 2R3C) using **Biopython**.
-    * Analyzed atomic coordinates to map the protein's center of mass for potential ligand binding studies.
+    * Create a 3D image structure of IL-32 (PDB: 2R3C) using **Biopython**.
+    * Finding the atomic coordinates to map the protein's center of mass for further potential ligand binding studies.
 
 ## Technologies Used
 * **Python:** Pandas, NumPy

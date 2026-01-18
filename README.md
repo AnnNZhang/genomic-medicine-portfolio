@@ -25,3 +25,8 @@ This project simulates a computational biology workflow. It processes single-cel
 ## Data Source
 * 10x Genomics (PBMC 3k dataset)
 * RCSB Protein Data Bank (2R3C)
+
+## Acknowledgements
+* Data provided by **10x Genomics**.
+* Workflow references: **Scanpy Documentation**.
+* AI tool assistantance for improving workflow and debugging
